@@ -1,0 +1,228 @@
+ /*
+Theme Name: My Theme
+Author: @Roger_ver
+Description: telegram
+Version: 2.0
+*/
+
+  .mycontacts1 {
+            display: grid;
+            background-color: rgba(172, 191, 226, 0.5);
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+            /* height: 50vh; */
+            grid-template-columns: 1fr 1fr;
+            /* align-content: center; */
+            align-items: center;
+            justify-items: start;
+            padding-bottom: 1em;
+        }
+
+        .contacts_h2 {
+            color: #7A83A5;
+            font-style: italic;
+            text-align: center;
+            padding-bottom: 0.3em;
+
+        }
+
+        .my_b2 {
+            display: none;
+        }
+
+        .mycontacts1 div p {
+            color: rgb(122, 131, 165);
+            font-style: italic;
+        }
+
+        .mycontacts1 div p a {
+            color: var(--color-primary);
+            font-style: normal;
+            margin-top: 1em;
+        }
+
+        .a_cont {
+            border: 2px solid var(--button-ramka);
+            color: var(--button-ramka);
+            /* Цвет рамки (можете заменить на нужный вам) */
+            padding: 15px 50px;
+            /* Отступы внутри рамки */
+            display: inline-block;
+            /* Это чтобы рамки не распространялись на всю ширину строки */
+            text-decoration: none;
+            /* Убираем подчеркивание у ссылок */
+
+            margin: 0 25px;
+         
+    background-color: #dce1ec;
+            /* Добавляем немного отступа между ссылками */
+        }
+        .count3{
+               margin-left: 45px;
+        }
+
+        .a_cont:hover {
+
+            /* Черный фон при наведении */
+            color: #fff;
+            background-color: var(--button-hover);
+            /* Белый цвет текста при наведении */
+        }
+
+        .mycontacts1 {
+            display: none;
+        }
+
+        .mycontacts1_img {
+            /* position: relative;
+            top: -1em; */
+            width: 70%;
+            margin-top: -1em;
+
+            border-left: 2px solid var(--hr-color);
+            border-top: 2px solid var(--hr-color);
+
+            /* right: -30px; */
+        }
+
+        .mycontacts1_block1 {
+            direction: rtl;
+        }
+
+        .mycontacts_modile {
+            display: none
+        }
+
+        .service1 h3,
+        .service2 h3 {
+
+            font-weight: 400;
+            color: var(--color-primary);
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .block9 h2 {
+                text-align: left;
+                margin-top: -5px;
+                padding-left: 79px;
+                padding-bottom: 25px;
+            }
+        h3 a{
+            text-decoration: none;
+    cursor: pointer;
+    color: var(--color-primary);
+        }
+
+        @media(max-width:780px) {
+            .block9 {
+                display: block;
+            }
+
+            .block9 {
+                padding: 0;
+                /* padding-top: var(--otspup-block); */
+            }
+        }
+
+        @media (max-width:600px) {
+            .block9 h2 {
+               
+                padding-left: 0px;
+             padding: 0;
+            
+            }
+           
+            .a_cont {
+
+                padding: 15px 20px;
+
+            }
+
+            .mycontacts1 {
+                display: none;
+            }
+
+            .mycontacts_modile {
+                display: flex;
+                padding: 0 20px;
+                flex-direction: column;
+                align-items: center;
+                background-color: rgba(172, 191, 226, 0.5);
+                padding-bottom: 10px;
+
+            }
+
+            .block9 h2 {
+                margin-bottom: 0px;
+                margin: 0;
+            }
+
+            .contacts_h2 {
+
+                padding-bottom: 50px;
+                margin: 0;
+                margin: 10px 0;
+                margin-top: 82px;
+            }
+
+            .mycontacts_modile div:nth-child(2) {
+                position: relative;
+                top: -20px
+            }
+
+
+            .mycontacts_modile div p {
+                text-align: center;
+                color: #7A83A5;
+                font-style: italic;
+                font-weight: 400;
+            }
+
+            .mycontacts_modile div img {
+                border-left: 2px solid var(--hr-color);
+                border-top: 2px solid var(--hr-color);
+                position: relative;
+                top: -50px;
+            }
+
+            .mycontacts_modile div p a {
+                text-decoration: none;
+            }
+
+            .my_b2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .a_cont {
+                margin: 0;
+                padding: 18px 54px;
+            }
+
+            .my_b2__link a:nth-child(1) {
+                position: relative;
+                right: 7px;
+                background-color: #d5dff0;
+            }
+
+            .my_b2__link a:nth-child(2) {
+                position: relative;
+                left: 7px;
+                background-color: #d5dff0;
+            }
+
+            p a {
+                color: var(--color-primary);
+                font-style: normal;
+            }
+
+            footer {
+                margin-top: 0px;
+            }
+            .service1{
+                display: none;
+            }
+        }

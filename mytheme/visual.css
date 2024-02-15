@@ -1,0 +1,478 @@
+/*
+Theme Name: My Theme
+Author: Your Name
+Description: Description of your theme
+Version: 4.0
+*/
+
+    .visual1 {
+        /* background-image: url("img/visual.jpg"); */
+        /* height: 100vh; */
+        /* background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    margin: 0 auto; */
+
+    }
+    .mobile{
+        display: none;
+    }
+    .visual3_div1 div div img, .visual4 img, .visual5_div1 div img{
+    display: none;
+}
+    .visual2_div1 ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px
+    }
+
+    .visual2_div1 {
+        padding: 30px 0;
+        background-color: rgba(172, 191, 226, 0.5);
+
+    }
+
+    .visual2_div1 div {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .visual2 h2 {
+        text-align: center;
+    }
+
+    .visual3 h2 {
+        padding-left: 25%;
+    }
+
+    .visual2 h2 span,
+    .visual3 h2 span {
+        color: rgb(122, 131, 165);
+        padding: 15px 0;
+        font-style: italic;
+    }
+
+    .visual3_div1 {
+        background-image: url('img/visual3.jpg');
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .visual5_div1 {
+        background-image: url('img/visual5.jpg');
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .visual3_div1 div,
+    .visual5_div1 div {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 0
+    }
+
+
+    .visual3_div1 div div,
+    .visual5_div1 div div {
+        max-width: 650px;
+        margin: 0
+    }
+
+    .visual5_div1 div div {
+       max-width:  580px;
+        margin: 0
+    }
+    .visual6 div:nth-child(2){
+        display:flex ;
+        flex-direction: column;
+    align-items: center;
+    width: 110%;
+    }
+    
+    .visual3_div1 div div ul li,
+    .visual4 div ul li,
+    .visual5_div1 div div ul li{
+    list-style-type: none; /* Прячем исходные маркеры */
+   }
+   .visual3_div1 div div ul li::before,  .visual4 div ul li::before, .visual5_div1 div div ul li::before {
+    color:  rgb(122, 131, 165); /* Цвет маркера */
+    content: "•";/* Сам маркер */
+    padding-right: 10px; /* Расстояние от маркера до текста */
+   }
+
+    .visual3_div1 div div ul li,
+    .visual4 div ul li,
+    .visual5_div1 div div ul li {
+        line-height: 1.5;
+        padding-bottom: 20px;
+    }
+
+    footer {
+  
+    margin-top: 30px;
+}
+.mobile-menu ul {
+ 
+    padding-inline-start: 40px;
+}
+    .visual2_div1 div  ul li {
+        list-style-type: none; 
+    }
+    .visual2_div1 div  ul li{
+        padding-left: 20px;
+    }
+
+    .visual2_div1 div  ul li::before {
+        color: rgb(122, 131, 165);
+        padding-right: 10px;
+    }
+    .visual6 ul li{
+        list-style: none;
+       
+    }
+    .visual6 ul li::before{
+         content: "•";
+    color: #DCE1EC;
+    margin-right: 8px;
+    line-height: 1.5;}
+   
+   .visual2_div1 div  ul{  list-style-image: url(alklimova.ru/wp-content/themes/mytheme/img/strelka.png); }
+  
+
+    .know_h2 {
+        color: rgb(122, 131, 165);
+        margin-top: 15px;
+    }
+
+    .visual5_div1 h2 {
+        padding-left: 25%;
+    }
+
+    .sobs {
+        padding-left: 24px;
+        width: 426px;
+    text-align: center;
+    }
+
+    .visual4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: URL("img/visual4.jpg");
+        padding: 20px 0;
+        background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .visual4 div:nth-child(2){
+        max-width: 650px;
+    }
+
+    .visual4 div p,
+    .visual4 div h2 {
+        text-align: center;
+    }
+
+    
+    .visual6 {
+        max-width: 1200px;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        margin-top: 2.5em;
+    }
+
+    .visual6 div h2{
+        padding-left: 24px;
+    font-size: clamp(1.5em, 5vw, 2.4em);
+    }
+    .visual6 div ul li{
+        line-height: 1.5;
+        padding-bottom: 20px;
+
+    }
+    .visual6 div h2{
+        padding-bottom: 1em;
+        margin: 0;
+        text-align: center;
+    }
+    .visual6 div ul{
+        padding-bottom: 2em; 
+        padding-left: 10%;
+    }
+    .b_cont {
+        font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+            border: 2px solid var(--button-ramka);
+            color: var(--button-ramka);
+            /* Цвет рамки (можете заменить на нужный вам) */
+            padding: 15px 50px;
+            /* Отступы внутри рамки */
+            display: inline-block;
+            /* Это чтобы рамки не распространялись на всю ширину строки */
+            text-decoration: none;
+            /* Убираем подчеркивание у ссылок */
+background-color:  rgb(220, 225, 236);;
+            margin: 0 25px;
+            /* Добавляем немного отступа между ссылками */
+        }
+
+        .b_cont:hover {
+            background-color: var(--button-primary);
+            /* Черный фон при наведении */
+            color: #fff;
+            background-color: var(--button-hover);
+            /* Белый цвет текста при наведении */
+        }
+        ul li span{
+            font-weight: 600;
+        }
+@media(max-width:768px){
+    .visual2_div1 ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.visual1{
+    margin-top: 72px;
+}
+.visual6 {
+   
+   display: flex!important;
+   align-items: center;
+   grid-template-columns: 1fr;
+   margin: 0 auto;
+   margin-top: 0.5em;
+   flex-direction: column-reverse;
+}
+.visual6 div h2 {
+
+
+    padding: 0;
+}
+.visual3 h2 {
+    padding: 0 5px;
+    text-align: center;
+}
+.sobs {
+    text-align: center;
+    padding-left: 0;
+}
+.visual3_div1 {
+    background-color: #d8d8d8;
+    background-image: none;
+   
+}
+.visual4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: none;
+   background-color: #d1c9be;
+    padding: 20px 0;
+}
+.visual5{
+    background-color: #d6def1;
+
+}
+.visual6 {
+    max-width: 1200px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    margin-top: 0.5em;
+}
+
+.visual6 div h2 {
+    padding-bottom: 0;
+    /* margin: auto; */
+    text-align: center;
+    font-size: 2em;
+}
+.visual6 div ul {
+    padding-bottom: 0;
+}
+.b_cont {
+    display: flex!important;
+    border: 2px solid var(--button-ramka);
+    color: var(--button-ramka);
+    padding: 15px 50px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(220, 225, 236);
+    /* margin: 0 25px; */
+    margin: 0;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+
+}
+
+@media(max-width:1024px){
+    .visual3_div1 div div, .visual5_div1 div div{
+        max-width: 100%;
+    }
+    .visual2_div1 div {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.visual3_div1 div div img, .visual4 img, .visual5_div1  div img{
+    display: block;
+}
+ul{
+    padding: 0;
+}
+.visual2 h2, .visual3 h2, .know_h2 {
+ 
+    font-size: 28px
+}
+.visual3_div1 div div ul li, .visual5_div1 div div ul li, .visual6 div ul li{
+    margin: 0 20px;
+}
+.visual2_div1 div ul li {
+    padding-left: 18px;
+}
+.visual3 h2 {
+
+    margin-top: 20px;
+  
+}
+.visual4 {
+    margin-top: 0px;
+}
+.visual4 div p {
+
+    padding-top: 20px;
+}
+.visual4 {
+    margin-top: 0px!important;
+}
+.visual5_div1 h2 {
+    text-align: center;
+   
+    padding: 0;
+}
+.visual5 {
+ 
+    margin-top: 10px;
+}
+.sobs {
+ 
+    padding: 0;}
+.visual6 div h2{
+    padding: 0;
+}
+li{
+    font-size: 18px;
+}
+.visual2_div1 ul {
+
+    margin-left: 20px;
+}
+li{
+    text-align: justify;
+}
+ .visual4 div ul li, .visual5_div1 div div ul li {
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 20px;
+}
+.visual4{
+
+    padding-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: none;
+    background-color: #d1c9be;
+    padding: 0px 20px;
+    margin-bottom: 0;
+    padding-top: 10px;
+    /* padding: 0; */
+
+}
+.visual3{
+    margin-bottom: 10px;
+}
+.visual3_div1 div div ul li, .visual4 div ul li, .visual5_div1 div div ul li {
+    font-size: 18px;
+    line-height: 1.3;
+    padding-bottom: 20px;
+    padding-right: 0;
+    text-align: left;
+}
+.visual3_div1 div, .visual5_div1 div {
+  
+    padding-bottom: 0;
+}
+.visual4{
+    margin-top: -16px;
+}
+.desc{
+    display: none;
+
+}
+.mobile{
+    display: block;
+    font-size: 33px!important;
+    line-height: 38px;
+}
+.visual6 div ul li {
+    line-height: 1.3;
+    padding-left: 20px;
+
+}
+.visual3_div1 div div img{
+    margin-top: -60px;
+}
+.visual4 img{
+    margin-top: -45px;
+}
+.visual6{
+    margin-top: 40px;
+}
+.visual6 div ul {
+   
+    padding: 0 46px;
+
+}
+.visual6 div ul li{
+    padding-bottom: 20px;
+}
+.b_cont {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 10px 15px;
+}
+.visual6_div1 img{
+    margin-top: 10px
+}
+.b_cont {
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 10px 15px;
+    color: white;
+    /* font-weight: 400; */
+    background-color: #494949;
+    margin-top: -10px;
+}
+.visual5_div1 div img{
+    margin-top: -40px;
+}
+footer {
+    margin-top: 25px;
+}
+
+
+}

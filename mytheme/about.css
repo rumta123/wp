@@ -1,0 +1,295 @@
+/*
+Theme Name: My Theme
+Author: Your Name
+Description: Description of your theme
+Version: 1.0
+*/
+
+ .about1 {
+        display: grid;
+        grid-template-columns: 0.5fr 1.5fr;
+        align-items: center;
+        padding: 20px 0 20px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    
+        /* Используем flex контейнер */
+    }
+    footer{
+        margin-top: 30px;
+    }
+
+    .about3_desc .a_cont{
+        font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    }
+    .about1 div img {
+        width: auto;
+        height: auto;
+    }
+.mobile{
+    display: none;
+}
+
+    .about1_2_1 {
+        background-color: rgba(172, 191, 226, 0.25);
+        width: 100%;
+
+
+        position: relative;
+        left: -28px;
+        padding-right: 28px;
+        /* max-width: 400px; */
+
+
+        /* max-width: 400px;  */
+    }
+
+    .about1_2_1 div div {
+       
+        padding: 40px;
+    }
+
+    .about1_2_1 div p {
+        color: rgb(122, 131, 165);
+        padding: 15px 0;
+        font-style: italic;
+
+    }
+
+    .about2 {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .about_hr {
+        width: 60%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+.a_count{
+    background-color: #DCE1EC;
+    border: 2px solid var(--button-ramka);
+    color: var(--button-ramka);
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+}
+
+    .a_cont {
+        border: 2px solid var(--button-ramka);
+        color: var(--button-ramka);
+        /* Цвет рамки (можете заменить на нужный вам) */
+        padding: 15px 50px;
+        /* Отступы внутри рамки */
+        display: inline-block;
+        /* Это чтобы рамки не распространялись на всю ширину строки */
+        text-decoration: none;
+        /* Убираем подчеркивание у ссылок */
+
+        margin: 0 25px;
+        font-size: 22px;
+    border-radius: 5px;
+        /* Добавляем немного отступа между ссылками */
+    }
+
+    .a_cont:hover {
+        background-color: var(--button-primary);
+        /* Черный фон при наведении */
+        color: #fff;
+        background-color: var(--button-hover);
+        /* Белый цвет текста при наведении */
+    }
+
+    .hr_img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    .about_hr {
+
+
+        position: absolute;
+        top: -16%;
+        z-index: -1;
+        transform: translateY(-50%);
+    }
+
+    .hr_img img {
+        width: 40px;
+        height: 40px;
+
+    }
+
+    .about2 {
+        padding-bottom: 40px;
+    }
+
+    .about3 {
+        background-color: rgba(172, 191, 226, 0.5);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about3_img {
+        margin-top: -1em;
+
+        /* border-left: 2px solid var(--hr-color);
+         border-top: 2px solid var(--hr-color); */
+
+    }
+
+    .about3_desc {
+        margin: auto;
+    }
+
+    .about3_desc h2 {
+        margin: 50px 25px;
+    }
+
+    .about3_desc ul {
+        padding-bottom: 50px;
+    }
+
+    .about3_desc ul li {
+        line-height: 2;
+    }
+
+    @media(max-width:768px) {
+        .about1 {
+            grid-template-columns: 1fr;
+            padding: 0;
+            margin-top: 72px;
+        }
+
+        .about2 {
+            padding-bottom: 10px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        .about3_desc h2 {
+    text-align: center;
+    /* margin: 0; */
+}
+.about3{
+    grid-template-columns: 1fr;
+}
+.about3_img {
+    margin-top: 1em;
+}
+.about1 div img {
+    width: 100%;
+    height: 100%;
+}
+.about1_2_1 {
+    padding: 0 5px;
+    background-color: rgba(172, 191, 226, 0.25);
+    width: 100%;
+    position: static;
+    /* left: -28px; */
+    padding-right: 28px;
+    max-width: 400px;
+    max-width: 100%;
+}
+.about1_2_1 div div {
+    max-width: 550px;
+    padding: 0;
+}
+.about3_desc h2 {
+     margin: 0px ; 
+}
+.about3_desc ul {
+    padding-bottom: 0px; 
+}
+.a_cont {
+    display: flex!important;
+    border: 2px solid var(--button-ramka);
+    color: var(--button-ramka);
+    padding: 15px 50px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 25px;
+    justify-content: center;
+}
+
+.about1_2_1 div p {
+    color: rgb(122, 131, 165);
+    padding: 10px 20px;
+    font-style: italic;
+}
+.about3_desc h2 {
+    margin: 0px;
+    font-size: 35px;
+}
+    }
+
+    @media(max-width:600px){
+        .about2{
+            padding: 0;
+        }
+        li{
+            font-size: 18px;
+        }
+        footer {
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.about3 {
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+}
+.about3_desc a{
+
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    font-size: 18px;
+    margin: 0 25px;
+    padding: 10px 15px;
+    color: white;
+    /* font-weight: 400; */
+    background-color: #494949;
+}
+.desc{
+    display: none;
+
+}
+.mobile{
+    display: block;
+    padding: 20px 0px;
+}
+.about3_desc h2 {
+    margin: 0px;
+    font-size: 33px;
+    line-height: 38px;
+    margin-bottom: -15px;
+    padding-top: 25px;
+
+}
+.about3_img {
+    margin-top: 25px;
+}
+.about3_desc ul li {
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.about3_desc ul li::before{
+    margin-right: 20px;
+}
+.about3_desc ul li {
+    line-height: 1.3;
+    margin-bottom: 20px;
+    /* padding-right: 20px; */
+    padding-left: 20px;
+}
+.about3_desc ul{
+    padding:  0 46px;
+}
+    }
